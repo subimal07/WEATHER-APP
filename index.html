@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="headdiv">
+        
+    <div class="head-maindiv">
+        <div class="search-func">
+            <input type="text" placeholder="Enetr City Name">
+            <button><img src="./assets/search.png" alt=""></button>
+        </div>
+        <div class="weather">
+            <img src="./assets/cloud.png" alt="" class="weather-icon">
+            <div class="add-description">
+                <h1 class="temp">Temp</h1>
+                <p class="description"> Cloud</p>
+            </div>
+            <h2 class="city">City</h2>
+           
+            <div class="details">
+                <div class="col">
+                    <i class="fa-solid fa-fire-flame-simple"></i>
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                     <div class="col">
+                        <i class="fa-solid fa-wind"></i>
+                        <div>
+                            <p class="wind">15km/h</p>
+                            <p>wind speed</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-arrow-down"></i>
+                        <div>
+                            <p class="pressure"> 1000 pha</p>
+                            <p> Air Pressure</p>
+                        </div>
+                    </div>                     
+            </div>
+            
+           <div class="footer-sec">
+            <div class="col">
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <div>
+                    <p class="feels-like">40°C</p>
+                    <p>Feels-Like</p>
+                </div>
+            </div>
+            <div class="col">
+                <i class="fa-regular fa-eye"></i>
+                <div>
+                    <p class="visibility">2000 m</p>
+                    <p>Visibility</p>
+                </div>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-temperature-low"></i>
+                <div>
+                    <p class="temp-min">20°C</p>
+                    <p>Temperature-Min</p>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    </div>
+</body>
+</html>
