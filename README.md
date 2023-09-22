@@ -1,2 +1,2 @@
 # WEATHER-APP
-This is my  collage internship project
+This is my  college internship project
