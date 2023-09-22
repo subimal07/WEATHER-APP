@@ -1,2 +1,2 @@
 # WEATHER-APP
-This is my  college internship project
+# i use in this project HTML,CSS, and JAVASCRIPT
